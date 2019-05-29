@@ -1,1 +1,1 @@
-# semester_project_db
+В файлах description.pdf, code.sql находятся, соответсвенно, описание и скрипты для базы данных
