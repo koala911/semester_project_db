@@ -40,12 +40,12 @@
 
 ## Триггер
 
-`EmployeeUpdateTrigger` - при вставке или изменении таблицы employees добавляет данные в таблицу `employee_update`
+`EmployeeUpdateTrigger` - при вставке или изменении таблицы employees добавляет данные в таблицу `EmployeeUpdate`
 
 ## Роли и права
 
 `Director` - может смотреть таблицу Restaurants, изменять таблицу employees.
 
-`Manager` - может смотреть таблицу employees, изменять таблицу Ord и Dish_in_order.
+`Manager` - может смотреть таблицу employees, изменять таблицу `Orders` и `DishInOrder`.
 
 `Chef` - может изменять таблицу Dishes.
