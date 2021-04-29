@@ -1,0 +1,29 @@
+CREATE ROLE Director;
+
+CREATE ROLE Manager;
+
+CREATE ROLE Chef;
+
+GRANT SELECT
+ON Restaurants
+TO Director;
+
+GRANT SELECT, INSERT, UPDATE
+ON employees
+TO Director;
+
+GRANT SELECT
+ON employees
+TO Manager;
+
+GRANT SELECT, INSERT, UPDATE
+ON Orders
+TO Manager;
+
+GRANT SELECT, INSERT, UPDATE
+ON DishInOrder
+TO Manager;
+
+GRANT SELECT, UPDATE, INSERT
+ON Dishes
+TO Chef;
